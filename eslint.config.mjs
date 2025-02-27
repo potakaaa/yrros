@@ -17,7 +17,8 @@ const eslintConfig = [
      
       "prefer-const" : "off",
     
-      'react-hooks/exhaustive-deps': 'off'
+      'react-hooks/exhaustive-deps': 'off',
+      "@typescript-eslint/no-unused-vars": "off",
     }
   }),
 ];
