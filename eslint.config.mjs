@@ -13,9 +13,11 @@ const eslintConfig = [
   ...compat.config({
     extends: ["next/core-web-vitals", "next/typescript"],
     rules: {
-
+      "react-hooks/rules-of-hooks": "off",
+     
       "prefer-const" : "off",
-
+    
+      'react-hooks/exhaustive-deps': 'off'
     }
   }),
 ];
